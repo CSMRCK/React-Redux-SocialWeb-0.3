@@ -1,0 +1,33 @@
+.dialogs {
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+
+}
+
+.dialogs_items {
+    padding: 10px;
+    color: lightcoral;
+    background-color: skyblue;
+
+}
+
+
+.dialogs_items .active {
+    color: lightcoral;
+    background-color: darkkhaki;
+}
+
+.dialog {
+    text-decoration: none;
+    color: red;
+}
+
+.messages {
+    padding-left: 100px;
+    color: darkred;
+    background-color: darkcyan;
+}
+
+.message {
+    color: bisque;
+}

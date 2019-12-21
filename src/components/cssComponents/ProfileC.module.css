@@ -1,0 +1,154 @@
+.allblock {
+    padding: 20px 200px 0 300px;
+}
+
+.mypage {
+    margin-top: 40px;
+    width: 100%;
+
+}
+
+.mainimage {
+
+}
+
+.mainimage img {
+    width: 1200px;
+    height: 400px;
+    border: 4px solid black;
+}
+
+.mainimage h1 {
+    margin-top: 10px;
+
+}
+
+.mainimage hr {
+    margin-top: 10px;
+    width: 1208px;
+}
+
+.myinfo {
+    float: left;
+    width: 300px;
+    height: 400px;
+}
+
+.myinfo header {
+    width: 100%;
+    height: 55px;
+    background-color: rgba(254, 226, 31, 0.45);
+}
+
+.shortcut_info {
+    float: right;
+    padding-top: 3px;
+    padding-right: 10px;
+}
+
+.black {
+    float: left;
+    background-color: black;
+    width: 55px;
+    height: 100%;
+}
+
+.myinfo header h3 {
+    padding-left: 0px;
+}
+
+.myinfo header p {
+    float: right;
+    color: #5e5f63;
+    font-size: 80%;
+}
+
+.myinfo .info {
+    color: #5e5f63;
+    height: auto;
+    background-color: rgb(251, 251, 251);
+    padding: 15px;
+}
+
+.posts {
+
+    padding: 0 150px;
+    float: right;
+}
+
+.main_post_block {
+    width: 500px;
+    height: auto;
+    background-color: rgb(251, 251, 251);
+}
+
+.main_post_block:not(:first-child) {
+    margin-top: 50px;
+}
+
+.main_post_block header {
+    background-color: rgba(254, 226, 31, 0.16);
+    width: 100%;
+    height: 40px;
+
+}
+
+.main_post_block header .gold {
+    float: left;
+    height: 100%;
+    width: 40px;
+    background-color: rgba(145, 129, 17, 0.63);
+
+}
+
+.main_post_block header .gold p {
+
+    color: #f4f7f6;
+    font-size: 150%;
+    text-align: center;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.goldy {
+    color: darkgoldenrod;
+}
+
+.main_post_block header .userdata {
+    padding: 10px 70px;
+    color: #5e5f63;
+    font-size: 70%;
+}
+
+.main_post_block header .userdata p {
+    display: inline-block;
+}
+
+.main_post_block img {
+    width: 100%;
+}
+
+.main_part_block .alltext {
+    padding: 10px;
+}
+
+.main_part_block .alltext h3 {
+    color: #5e5f63;
+}
+
+.main_part_block .alltext .posttext {
+    color: #5e5f63;
+}
+
+.main_post_block footer {
+    height: 40px;
+}
+
+.main_post_block footer .likeblock {
+    float: right;
+    color: #5e5f63;
+    padding: 10px;
+    font-size: 80%;
+}

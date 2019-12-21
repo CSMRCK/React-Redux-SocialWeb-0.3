@@ -1,0 +1,45 @@
+.navi{
+	margin: 0;
+	padding: 0;
+}
+.sidebar{
+  position: fixed;
+  height: 100%;
+  grid-area: n;
+  background-color: black;
+  padding: 25px;
+  /*left: 0;*/
+  color:white;
+}
+.logo{
+	height: 250px;
+	width: 250px;
+}
+.sidebar img{
+	height: 55px;
+	width: 55px;
+}
+.hr{
+	width: 200px;
+	border: 1px solid white;
+}
+.nav_item{
+	padding:0 0 5px 20px;
+}
+.nav_item a{
+
+	color:white;
+	text-decoration: none;
+}
+.nav_item a:hover{
+	color:red;
+}
+.label{
+	padding-left: 10px;
+	font-size: 13px;
+}
+.label_down{
+	padding-top: 30px;
+	padding-left: 45px;
+	font-size: 13px;
+}
